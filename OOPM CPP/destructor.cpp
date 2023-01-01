@@ -20,6 +20,7 @@ public:
         cout<<"data members are destroying";
         
     }
+    
 };
 
 void students::display()
@@ -31,4 +32,5 @@ int main()
 {
     students s2(21,"shubham");
     s2.display();
+    
 }

@@ -14,7 +14,8 @@ class A{
 
 class B:public A{
     public:
-    int display(){
+ 
+    void display(){
         cout<<"this is derived class";
     }
    
@@ -23,8 +24,7 @@ class B:public A{
 int main()
 {     B b;
         b.get(5);
-      A *ob = &b;
-
+      A *ob = &b; 
       ob->display();
       
     return 0;

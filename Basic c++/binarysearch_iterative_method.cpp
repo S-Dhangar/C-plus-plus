@@ -10,7 +10,7 @@ int Binarysearch(int a[],int low,int high,int key){
          return mid;
       }
       if(a[mid]>key){
-       return  Binarysearch(a,1,mid-1,key);
+       return  Binarysearch(a,low,mid-1,key);
       }
       if(a[mid]<key){
     return  Binarysearch(a,mid+1,high,key);

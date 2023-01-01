@@ -32,6 +32,6 @@ int main()
     students s1(21,"shubham"), s2(22,"dhangar");
     s1.display();
     s2.display();
-    students s3(s1);
+    students s3(s1); // or just do s3=s1;
     s3.display();
 }

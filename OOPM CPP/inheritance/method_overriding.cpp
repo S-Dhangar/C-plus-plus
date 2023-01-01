@@ -26,9 +26,8 @@ class two:public one{
 int main()
 {
     two t;
-    one *ptr= &t;
-    ptr->get(5);
-    ptr->show();
+    t.get(5);
+    t.show();
     
     return 0;
 }

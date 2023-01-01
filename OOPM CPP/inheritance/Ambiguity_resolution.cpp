@@ -37,7 +37,7 @@ int main(){
     one.set(5);
     b2 two;
     two.set(6);
-
+    
     b cl;
     cl.display();  
     

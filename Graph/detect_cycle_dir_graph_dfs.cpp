@@ -34,11 +34,11 @@ int main()
     int n;
     cin>>n;
     vector<int> arr[n];
-    push(arr,0,1);
+    push(arr,4,2);
     push(arr,1,2);
-    push(arr,2,0);
+    //push(arr,2,0);
     push(arr,2,3);
-    push(arr,3,4);
+  //  push(arr,3,4);
   //  push(arr,2,4);
   //  push(arr,4,3);
   //  push(arr,4,5);

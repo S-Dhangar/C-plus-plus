@@ -8,6 +8,8 @@ int check(vector<vector<int>>& grid,int i,int j,int n,int m){
         return 0;
         
     }
+
+
     void find1(vector<vector<int>>& grid,int i,int j,int n,int m){
         grid[i][j]=0;
         if(check(grid,i,j+1,n,m)){

@@ -44,21 +44,15 @@ int postorder(node *n){
     cout<<n->data<<" ";
 }
 
-node *insert(node *h)
+void *insert(node *h)
 {
      
-    if (h == NULL)
-    {
-        node *newnode=new node;
-        int a;
-        cin>>a;
-        newnode->data=a;
-        newnode->left=NULL;
-        newnode->right = NULL;
-        h=newnode;
+   
+        cin>>h->data;
+        h->left=NULL;
+        h->right=NULL;
        
-        return h;
-    }
+   
    
 }
 
@@ -109,7 +103,8 @@ int main()
     int n;
     cin>>n;
    node *head=NULL;
-    head=insert(head);
+   head=new node;
+    insert(head);
   /*  head->left=new node;
     head->left=newnode();
     head->right=new node;

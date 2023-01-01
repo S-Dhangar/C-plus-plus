@@ -1,9 +1,5 @@
 
-
 // example of virtual base classs
-
-
-
 
 #include<iostream>
 using namespace std;
@@ -19,7 +15,7 @@ class student{
     }
 
 } sd;
-// we have to declarethis class virtual in the derived classes
+// we have to declare this class virtual in the derived classes
 
 class test: public virtual student{
     int mark1;
